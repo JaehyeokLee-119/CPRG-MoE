@@ -4,17 +4,15 @@ Code for CPRG-MoE (Enhancing Emotion–Cause Pair Extraction in Conversation Wit
 [PRG-MoE](https://github.com/jdjin3000/PRG-MoE) referenced
 
 ## Dependencies
-- python 3.10.10<br>
-- pytorch 1.13.1<br>
-- pytorch-cuda 11.6<br>
-- tqdm 4.64.1<br>
+- python 3.9.17<br>
+- pytorch 2.0.1<br>
+- pytorch-cuda 11.8<br>
 - numpy 1.23.5<br>
-- huggingface_hub 0.12.0<br>
-- cuda 11.6.1<br>
-- transformers 4.26.1<br>
-- scikit-learn 1.2.0<br>
-- dotenv: pip install python-dotenv<br>
-- pytorch-lightning 2.0.1: pip install lightning<br> 
+- huggingface_hub 0.16.4<br>
+- cuda 11.8<br>
+- transformers 4.29.2<br>
+- scikit-learn 1.2.2<br>
+- pytorch-lightning 2.0.5: pip install lightning<br> 
 
 ## Dataset
 The dataset used in this model is [RECCON dataset](https://github.com/declare-lab/RECCON) and [ConvECPE dataset](https://github.com/Maxwe11y/JointEC/tree/main/Dataset)
