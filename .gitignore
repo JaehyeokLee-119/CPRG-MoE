@@ -1,0 +1,17 @@
+# Logs
+lightning_logs
+logs/*
+former_logs
+
+# Caches
+_*
+*.pyc
+**/__pycache__/
+backups
+
+# Temporary files for experiment setting
+datasettings.py
+*.ipynb
+
+# model checkpoints
+model/*.ckpt
