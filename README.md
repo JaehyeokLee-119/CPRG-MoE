@@ -17,7 +17,9 @@ The model employs two datasets for training and evaluation: [RECCON dataset](htt
 
 ## How to run
 1. Choose one of the data files from ConvECPE 0\~4 and RECCON 0\~4
-2. Then, you can run the model by run below script with a few modifying; train_data, valid_data, test_data, dataset_type, data_label, and n_emotion.<br>
+2. Then, you can run the model by run below script with a few modifying on: [train_data, valid_data, test_data, dataset_type, data_label, n_emotion].<br><br>
+* Set n_emotion to 7 if you are working with the RECCON dataset.
+* Set n_emotion to 6 if you are working with the ConvECPE dataset.<br><br>
 For example, if you choose ConvECPE fold 3:<br>
 ['/data/data_ConvECPE/data_3/ConvECPE_fold_3_train.json', '/data/data_ConvECPE/data_3/ConvECPE_fold_3_valid.json', '/data/data_ConvECPE/data_3/ConvECPE_fold_3_test.json', 'ConvECPE', 'ConvECPE_3', 6]<br><br>
 If you opt for RECCON fold 0:<br>
