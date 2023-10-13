@@ -1,13 +1,10 @@
 import lightning as pl
 import torch
-import torch.nn.functional as F
-import torch.nn as nn
 import logging
 from module.evaluation import FocalLoss
 from module.preprocessing import get_pair_pad_idx, get_pad_idx
 from transformers import get_cosine_schedule_with_warmup, AutoTokenizer
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
-from transformers import AutoModel
 import numpy as np
 from module.lightmodels import CPRG_MoE
 

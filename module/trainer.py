@@ -1,11 +1,7 @@
 import logging
 import os
 import datetime
-import tensorflow
 import lightning.pytorch as L
-import torch
-import torch.optim as optim
-from tqdm import tqdm
 from torch.utils.data import TensorDataset, DataLoader
 from lightning.pytorch.callbacks import ModelCheckpoint
 

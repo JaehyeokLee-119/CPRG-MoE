@@ -1,6 +1,6 @@
 import json
 import torch
-from transformers import BertTokenizer, AutoTokenizer
+from transformers import AutoTokenizer
 
 def get_data(data_file, dataset_type, device, max_seq_len, encoder_name, contain_context=False, context_type=None):
     '''
