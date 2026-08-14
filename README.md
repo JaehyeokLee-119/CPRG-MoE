@@ -1,5 +1,5 @@
 # CPRG-MoE
-This code pertains to CPRG-MoE (Contextualized Pair-Relationship Guided Mixture-of-Experts), a model designed to enhance the extraction of emotion-cause pairs in conversations while considering contextual information. It is inspired by the [PRG-MoE repository](https://github.com/jdjin3000/PRG-MoE), and presented in the paper [Enhancing Emotion-Cause Pair Extraction in Conversation With Contextual Information](https://www.techrxiv.org/users/706678/articles/691900-enhancing-emotion-cause-pair-extraction-in-conversation-with-contextual-information).
+This code pertains to [CPRG-MoE (Contextualized Pair-Relationship Guided Mixture-of-Experts)](https://dl.acm.org/doi/10.1145/3748522.3779710), a model designed to enhance the extraction of emotion-cause pairs in conversations while considering contextual information. It is inspired by the [PRG-MoE repository](https://github.com/jdjin3000/PRG-MoE), and presented in the paper [Enhancing Emotion-Cause Pair Extraction in Conversation With Contextual Information](https://www.techrxiv.org/users/706678/articles/691900-enhancing-emotion-cause-pair-extraction-in-conversation-with-contextual-information).
 
 ## Dataset
 The model employs two datasets for training and evaluation: [RECCON dataset](https://github.com/declare-lab/RECCON) and the [ConvECPE dataset](https://github.com/Maxwe11y/JointEC/tree/main/Dataset)
@@ -51,4 +51,24 @@ python main.py \
     --learning_rate 5e-5
 ```
 
+## Citation
+```
+@inproceedings{10.1145/3748522.3779710,
+author = {Lee, Jaehyeok and Bak, JinYeong},
+title = {Enhancing Emotion-Cause Pair Extraction in Conversation with Contextual Information},
+year = {2026},
+isbn = {9798400722943},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3748522.3779710},
+doi = {10.1145/3748522.3779710},
+abstract = {To generate more emotionally human-like responses, it is important for the chatbot to not only infer the emotions of interlocutors, but also consider the underlying causes of these emotions. Emotion-cause pair extraction in conversation (ECPEC) is a task that aims to identify emotions and their corresponding causes as pairs in a conversation. The use of conversational context is important in predicting emotions and their causes for the ECPEC task. However, prior studies have been limited in fully utilizing contextual information. In this study, we propose the contextualized pair-relationship guided mixture-of-experts (CPRG-MoE) model for ECPEC, which incorporates contextual information along with dialogue features such as speaker information. Furthermore, prior evaluations of ECPEC have focused only on detecting emotion-cause pairs without considering the type of emotion evoked by each cause. This limited focus leads to an insufficient understanding of the dependency relationship between emotions and their causes. Therefore, we also propose a novel evaluation metric, emotion-cause pair emotion combined assessment (PECA), to jointly assess emotion-cause pairs and their corresponding emotions. Our proposed CPRG-MoE model outperforms the baselines in terms of ECPEC on two datasets, RECCON and ConvECPE, utilizing both existing metrics and the novel PECA metric1.},
+booktitle = {Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing},
+pages = {883–891},
+numpages = {9},
+keywords = {conversations, emotion analysis, emotion-cause pair extraction, dialogue systems, multi-task learning},
+location = {Grand Hotel Palace, Thessaloniki, Greece},
+series = {SAC '26}
+}
+```
 
