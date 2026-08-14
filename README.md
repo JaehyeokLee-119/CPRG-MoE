@@ -2,7 +2,7 @@
 This code pertains to [CPRG-MoE (Contextualized Pair-Relationship Guided Mixture-of-Experts)](https://dl.acm.org/doi/10.1145/3748522.3779710), a model designed to enhance the extraction of emotion-cause pairs in conversations while considering contextual information. It is inspired by the [PRG-MoE repository](https://github.com/jdjin3000/PRG-MoE), and presented in the paper [Enhancing Emotion-Cause Pair Extraction in Conversation With Contextual Information](https://www.techrxiv.org/users/706678/articles/691900-enhancing-emotion-cause-pair-extraction-in-conversation-with-contextual-information).
 
 ## Dataset
-The model employs two datasets for training and evaluation: [RECCON dataset](https://github.com/declare-lab/RECCON) (CC BY-NC-SA 4.0) and the [ConvECPE dataset](https://github.com/Maxwe11y/JointEC/tree/main/Dataset).
+The model employs two datasets for training and evaluation: [RECCON dataset](https://github.com/declare-lab/RECCON) ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)) and the [ConvECPE dataset](https://github.com/Maxwe11y/JointEC/tree/main/Dataset).
 
 ## Dependencies
 - python 3.9.17<br>
